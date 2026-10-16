@@ -1,0 +1,11 @@
+{
+    "servers": {
+        "harvexa": {
+            "type": "stdio",
+            "command": "${workspaceFolder}/mcp-server/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/mcp-server/server.py"
+            ]
+        }
+    }
+}
